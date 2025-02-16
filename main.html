@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+    <title>Spotify Clone</title>
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navleft">
+            <div class="logo kk">
+                <img class="upimg f" src="pics/logo.svg">
+            </div>
+            <div class="home kk">
+                <img class="upimg s" src="pics/home.svg">
+            </div>
+            <div class="search kk">
+                <img class="upimg2" src="pics/search.svg">
+                <div class="navtext">
+                    <p>What do you want to play?</p>
+                    <!-- <input class="ok" type="text" placeholder="What do you want to play?"> -->
+                </div>
+                <p>|</p>
+                <img class="upimg2" src="pics/navp1.svg" alt="">
+            </div>
+        </div>
+        <div class="navright">
+            <div class="psd">
+                <span class="t1"> Premium</span>
+                <span class="t1">Support</span>
+                <span class="t1">Download</span>
+            </div>
+            <span class="t2">|</span>
+            <div class="install">
+                <img src="pics/downloadoption.svg" alt="" class="upimg2">
+                <p>Install App</p>
+            </div>
+            <div class="sign">
+                <p>Sign Up</p>
+                <a href="">Log in</a>
+            </div>
+        </div>
+    </div>
+    <div class="mainc">
+        <div class="leftcont">
+            <div class="hamcont">
+                <img src="pics/ham.svg" alt="" class="hamburger upimg">
+            </div>
+            <div class="leftmain">
+                <div class="upper">
+                    <div class="lib">
+                        <img class="upimg2 imgg" src="pics/library.svg" alt="">
+                        <p class="pp">Your Library</p>
+                    </div>
+                    <div class="add">
+                        <button>+</button>
+                    </div>
+                    <img src="pics/cross.svg" class="cross upimg" alt="">
+                </div>
+                <div class="mid">
+                    <!-- <div class="mbox">
+                    <p class="first">Create your first playlist</p>
+                    <p class="second">It's easy we will help you</p>
+                    <a class="aa" href="">Create Playlist</a>
+                </div> -->
+                    <!-- <div class="mbox">
+                    <p class="first">Let's find some podcasts to follow</p>
+                    <p class="second">We'll keep you updated on new episodes</p>
+                    <a class="aa" href="">Browse podcasts</a>
+                </div> -->
+                    <div class="songlist">
+                        <ul>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rightmain">
+            <div class="list">
+                <div class="topic">
+                    <h1 class="heading">Popular albums and Singles</h1>
+                </div>
+                <div class="songs">
+                    <div data-currfolder="playlist1" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d00001e02f000fdbe92e9a1058034fd33"
+                            alt="">
+                        <p class="songname">Sanam teri Kasam</p>
+                        <p class="desc">Himeesh Reshamiya</p>
+                    </div>
+                    <div data-currfolder="playlist2" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+                    <div data-currfolder="playlist3" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d00001e026404721c1943d5069f0805f3"
+                            alt="">
+                        <p class="songname">Aashiqui 2</p>
+                        <p class="desc">Ankit Tiwari</p>
+                    </div>
+                    <div data-currfolder="playlist1" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d00001e02bb25239324c4e16ae01fda36"
+                            alt="">
+                        <p class="songname">Winning Speech</p>
+                        <p class="desc">Karan Aujla</p>
+                    </div>
+                    <div data-currfolder="playlist2" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d00001e025f3ede47954a93aa03efe5f9"
+                            alt="">
+                        <p class="songname">Animal</p>
+                        <p class="desc">Animal</p>
+                    </div>
+                    <div data-currfolder="playlist3" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Bonita</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="list">
+                <div class="topic">
+                    <h1 class="heading">Popular Radios</h1>
+                </div>
+                <div class="songs">
+                    <div data-currfolder="playlist1" class="box">
+                        <img class="boximg" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4YRxDV8wJFPHPTeXepOstw/en"
+                            alt="">
+                        <p class="songname">Best Songs</p>
+                        <p class="desc">Arijit Singh</p>
+                    </div>
+                    <div data-currfolder="playlist2" class="box">
+                        <img class="boximg" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/0oOet2f43PA68X5RxKobEy/en"
+                            alt="">
+                        <p class="songname">Best Songs</p>
+                        <p class="desc">Shreya Ghosal</p>
+                    </div>
+                    <div data-currfolder="playlist3" class="box">
+                        <img class="boximg" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                            alt="">
+                        <p class="songname">Best Songs</p>
+                        <p class="desc">KK </p>
+                    </div>
+                    <div data-currfolder="playlist1" class="box">
+                        <img class="boximg" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1mYsTxnqsietFxj1OgoGbG/en"
+                            alt="">
+                        <p class="songname">Best Songs</p>
+                        <p class="desc">A.R. Rahman</p>
+                    </div>
+                    <div data-currfolder="playlist2" class="box">
+                        <img class="boximg" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/en"
+                            alt="">
+                        <p class="songname">Best Songs</p>
+                        <p class="desc">Diljit Dosanj</p>
+                    </div>
+                    <div data-currfolder="playlist3" class="box">
+                        <img class="boximg" src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/7uIbLdzzSEqnX0Pkrb56cR/en"
+                            alt="">
+                        <p class="songname">Best Songs</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="list">
+                <div class="topic">
+                    <h1 class="heading">Trending Songs</h1>
+                </div>
+                <div class="songs">
+                    <div data-currfolder="playlist1" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+                    <div data-currfolder="playlist2" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+                    <div data-currfolder="playlist3" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+                    <div data-currfolder="playlist1" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honeyy singh</p>
+                    </div>
+                    <div data-currfolder="playlist2" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+                    <div data-currfolder="playlist3" class="box">
+                        <img class="boximg" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88"
+                            alt="">
+                        <p class="songname">Glory</p>
+                        <p class="desc">Yo Yo Honey singh</p>
+                    </div>
+
+                </div>
+            </div>
+      
+        </div>
+    </div>
+    <div class="footer">
+        <div class="song">
+            <img class="played" src="https://i.scdn.co/image/ab67616d0000b273aad3f4b601ae8763b3fc4e88" alt="">
+            <h2 class="sname">Glory</h2>
+        </div>
+        <div class="playbar">
+            <div class="audio">
+                <img id="prev" class="upimg aaa" src="pics/prevsong.svg" alt="">
+                <img id="play" class="upimg aaa " src="pics/play.svg" alt="">
+                <img id="next" class="upimg aaa" src="pics/nextsong.svg" alt="">
+                <img class="upimg aaa" src="pics/repeatsong.svg" alt="">
+            </div>
+            <div class="seek">
+                <div class="duration"></div>
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="extra">
+            <img src="pics/volume.svg" alt="" class="vol upimg">
+            <div class="range"><input type="range" name="volume" id="volrange"></div>
+        </div>
+    </div>
+    <script src="scrypt.js"></script>
+</body>
+
+</html>
